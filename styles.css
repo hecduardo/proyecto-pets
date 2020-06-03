@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+
+    display: flex;
+   /* margin-left: 155px;*/
+    justify-content: space-around;
+    background-color: rgba(250,250,255,.95);
+    border-bottom: 1.5px solid black;
+	position: sticky;
+    top: 0;
+    z-index: 1;
+ }
+
+a{
+	text-underline-position: none;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+input.src{
+
+	margin: 10px 10px 10px 10px;
+	padding: 10px 0px 10px 40px;
+	outline: none;
+	font-size: 19px;
+	border-radius: 20px;
+	color: #444;
+	border: 3px solid aqua;
+	background:#fff url("./images/loupe_icon-icons.com_58875.png") no-repeat 3px center;
+	width: 300px;
+	transition: all .5s;
+}
+
+input.src:hover{
+	width: 400px;
+	background-color: #fff;
+	border-color: #8x10b3;
+	box-shadow: 0 0 5px #6dc;
+
+}
+
+.user {
+
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: 'Days One', sans-serif;
+	cursor: pointer;
+    padding: 0px 10px 9px 10px;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 0em;
+    
+	
+}
+
+
+.hero-image{
+    height: 75vh;
+    opacity: 0.90;
+    background: url('./images/herodogs.png'), #21b6ac;
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding-bottom: 5%;
+    z-index: 15;
+    font-family:'Courgette', cursive;;
+	font-size: 30px;
+	color: white;
+}
+
+
+
+li{
+	list-style: none;
+	text-align: center;
+}
+
+nav{
+	/*margin-top: 10px;*/
+	display: flex;
+	font-family: 'Days One', sans-serif;
+	font-size: 25px;
+	color: black;
+	padding: 15px 10px 15px 0px;
+	justify-content: space-around;
+	background-color: rgba(50,0,250,.6);
+	border-bottom: 1.2px solid black;
+ 	
+}
+
+.dogs{
+	display: flex;
+	justify-content: center; 
+	align-items: baseline;
+}
+
+.servicios{
+	
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Days One', sans-serif;
+	border-top: 3px dashed steelblue;
+	border-bottom: 3px dashed skyblue;
+	background-color: rgba(250,0,50,.85);
+	padding: 15px 0px;
+}
+
+.servicios img{
+
+	padding: 0px 0px 0px 25px;
+	width: 50px;
+	height: 50px;
+}
+
+article h2{
+	font-family: 'Days One', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+}
+
+.marcas{
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+
+}
+
+footer{
+	padding: 30px 0px 70px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #5871b1;
+
+}
+
+.news input.src{
+
+	border: 3px solid purple;
+	background:#fff url("./images/add-mail-outlined-interface-symbol-of-closed-envelope-back_icon-icons.com_57892.ico") no-repeat 3px center;
+	
+}
