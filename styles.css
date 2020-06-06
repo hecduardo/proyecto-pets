@@ -147,3 +147,82 @@ footer{
 	background:#fff url("./images/add-mail-outlined-interface-symbol-of-closed-envelope-back_icon-icons.com_57892.ico") no-repeat 3px center;
 	
 }
+
+nav a{
+	color: #551A8B;
+}
+
+nav a:active {
+  color: red;
+}
+
+nav a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.label-login{
+	font-weight: bold;
+	font-family:'Courgette', cursive;
+}
+
+.carousel-item h2{
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Days One', sans-serif;
+}
+
+.div-servicios{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.carousel-item img{
+	width: 40%;
+	height: 400px;
+	margin-right: 20px;
+}
+
+.carousel-item p{
+	font-size: 18px;
+	font-family: 'Days One', sans-serif;
+	text-align: justify;
+	width: 40%;
+	margin-right: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: red;
+}
+
+.carousel-indicators{
+	background-color: red;
+}
+
+.centrar{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p{
+	margin: 0px;
+}
+
+.footer-titulo{
+	font-weight: bold;
+}
+
+.menu a{
+	color: #551A8B;
+ }
+
+ .menu a:active{
+	color: red;
+ }

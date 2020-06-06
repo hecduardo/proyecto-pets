@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/css/font_awesome_min.css">
+	<title>Servicios</title>
+</head>
+<body>
+	<header>
+		<div class="menu">
+			<img src="./images/logo1.png" alt="logo" style="padding: 10px;">
+		
+			<div class="box">
+				<input type="text" name="search" placeholder="Buscar en la pagina" class="src" autocomplete="off">
+			</div>
+			<div class="user">	
+			
+				<a data-toggle="modal" data-target="#modal-iniciar-sesion">Iniciar sesión</a>
+				<a data-toggle="modal" data-target="#modal-registro">Regístrate</a>
+				<a href=""><img src="./images/shopping-cart-3_icon-icons.com_63429.png"></a>
+			</div>
+		</div>	
+		<div class="hero-image">
+           <p>Tu perro está feliz de que estés aquí...</p>
+            <h1>Bienvenido</h1>
+        </div>
+	</header>
+
+	<nav>
+		<a href="./servicios.html">Servicios</a>
+		<a href="./index.html">Inicio</a>
+		<a href="">Articulos</a>
+	</nav>
+
+	<!--Inicio Carousel-->
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="20000">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <h2>Veterinario</h2>
+	      <div class="div-servicios">
+	      	<img src="./images/servicios-veterinario.jpg">
+	      	<p>Nuestros peluditos reciben atención ante cualquier emergencia, desde una pequeña cortada hasta operaciones y cuidados intensivos.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <h2>Hotel</h2>
+	      <div class="div-servicios">
+	      	<img src="./images/servicios-hotel.jpg">
+	      	<p>¿Necesitas Viajar? Pero no quieres descuidar a tu amigo... No te preocupes en nuestras instalaciones cuidaremos de tu peludito como un rey.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <h2>Campamento</h2>
+	      <div class="div-servicios">
+	      	<img src="./images/servicios-campamento.jpg">
+	      	<p>¿Tu amigo se comporta inquieto y necesita salir a jugar? Dejalo en nuestras manos, nosotros jugaremos todo el dia con el, ademas de que podra conocer nuevos amigos.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <h2>Entrenamiento</h2>
+	      <div class="div-servicios">
+	      	<img src="./images/servicios-entrenamiento.jpg">
+	      	<p>¿Se enoja por cualquier cosa, se muestra agresivo y/o es desobediente? Contamos con el equipamento necesario para educar a tu amiguito, a base de reglas y disciplina tu peludito sera todo un campeón.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <h2>Salon de Aceo</h2>
+	      <div class="div-servicios">
+	      	<img src="./images/servicios-aseo.jpg">
+	      	<p>Trae a tu peludito para que reciba la mejor ducha de su vida, se relajara y saldra reluciente, listo para ir a la cama</p>
+	      </div>
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<!--Fin Carousel-->
+	<h4 class="centrar">No lo dudes mas, tu amigo necesita ser consentido, nosotros queremos consentirlo.</h4>
+
+
+	<!-- Modal Iniciar Sesion-->
+	<div class="modal fade" id="modal-iniciar-sesion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Iniciar sesión</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<form>
+	      		<div class="d-flex justify-content-center">
+	      			<i class="fas fa-paw fa-5x"></i>
+	      		</div>
+	      		<div>
+		        	<label class="label-login" for="Usuario">Usuario</label>
+		        	<input type="text" class="form-control" name="Usuario" required="true" />
+	        	</div>
+	        	<br/>
+	        	<div>
+		        	<label class="label-login" for="Contraseña">Contraseña</label>
+		        	<input type="password" class="form-control" name="Contraseña" required="true"/>
+	        	</div>
+	        	<br/>
+	        	<button id="btn-iniciar-sesion" class="btn btn-success float-right">Iniciar</button>
+	      	</form>
+	        
+	      </div>
+	      <div class="modal-footer">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<!-- Fin Modal Iniciar Sesion-->
+
+	<!-- Modal Registro-->
+	<div class="modal fade" id="modal-registro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Registro</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<form>
+	      		<div class="d-flex justify-content-center">
+	      			<i class="fas fa-paw fa-5x"></i>
+	      		</div>
+	      		<div>
+		        	<label class="label-login" for="Usuario">Usuario</label>
+		        	<input type="text" class="form-control" name="Usuario" required="true" />
+	        	</div>
+	        	<br/>
+	        	<div>
+		        	<label class="label-login" for="Contraseña">Contraseña</label>
+		        	<input type="password" class="form-control" name="Contraseña" required="true"/>
+	        	</div>
+	        	<div>
+		        	<label class="label-login" for="Correo">Correo Electronico</label>
+		        	<input type="text" class="form-control" name="Correo" required="true"/>
+	        	</div>
+	        	<br/>
+	        	<button id="btn-iniciar-sesion" class="btn btn-success float-right">Registrar</button>
+	      	</form>
+	        
+	      </div>
+	      <div class="modal-footer">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<!-- Fin Modal Registro-->
+
+	<footer>
+		<div class="news">
+			<p class="footer-titulo">Suscribete a nuestro boletin de noticias</p>
+			<p class="footer-titulo">¡Recibe nuestras ultimas ofertas!</p>
+			<div class="box">
+				<input type="email" name="mail" placeholder="Ingresa tu correo aquí" class="src" autocomplete="off">
+			</div>
+			<p class="footer-titulo">Copyright© 2020 Pet´s Inc.</p>
+		</div>
+		<div>
+			<p class="footer-titulo">Descubre Pet's</p><br>
+			<p>Quienes Somos</p>
+			<p>Nuestras Tiendas</p>
+			<p>Bolsa de trabajo</p>
+		</div>
+		<div>
+			<p class="footer-titulo">Atención especializada</p><br>
+			<p>Preguntas frecuentes</p>
+			<p>Politicas</p>
+			<p>Terminos y condiciones de uso</p>
+			<p>Terminos y condiciones promociones</p>
+			<p>Aviso de privacidad</p>
+		</div>
+		<!--<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="./assets/js/font_awesome_min.js"></script>
+</body>
+</html>
