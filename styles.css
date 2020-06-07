@@ -50,6 +50,8 @@ input.src:hover{
 	font-family: 'Days One', sans-serif;
 	cursor: pointer;
     padding: 0px 10px 9px 10px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     letter-spacing: 0em;
@@ -191,7 +193,7 @@ nav a:link, a:visited, a:active {
 .carousel-item p{
 	font-size: 18px;
 	font-family: 'Days One', sans-serif;
-	text-align: justify;
+	text-align: center;
 	width: 40%;
 	margin-right: 20px;
 }
@@ -225,4 +227,9 @@ footer p{
 
  .menu a:active{
 	color: red;
+ }
+
+ .modal-header, .modal-footer{
+ 	background-color: rgba(50,0,250,.6);
+ 	color: white;
  }
